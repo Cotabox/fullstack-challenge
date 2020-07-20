@@ -3,7 +3,11 @@
 1. It's my parcial solution for Cotabox Fullstack Challenge (read more bellow).
 2. I'm trying to solve this challenge after studied Angular "Tour of Heroes" tutorial (read more bellow), because I think it's possible to use an analogy with "heroes" and "employees / investors" hence the way to do the basic "CRUD" is almost the same in most cases.
 3. I'm still working on this challenge until the deadline, scheduled for 07/21/2020, so, this documentation will be modified until it's date.
-4. 
+4. To run this Angular App in a development server, just clone this repository localy and follow general instructions for any Angular app:
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+5. 
+
+
 
 
 <p align="center">
