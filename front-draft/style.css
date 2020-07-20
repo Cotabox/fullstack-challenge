@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 740px;
+    text-align: center;
+
+}
+#container {
+    text-align: left;    
+    background:#FFFFFF;
+
+}
+#header {
+    background: #999999;
+}
+#table1 {
+    float: left;
+    width: 40%;    
+    min-width: 130px;
+}
+
+/*
+#chart {
+    margin: 0 40% 0 40%;    
+    /* top - rigth - bottom - left     
+} */
+
+#chart {
+    float: left;
+    width: 30%;
+    min-width: 130px;
+}
+
+#table2 {
+    float: right;
+    width: 30%;
+    min-width: 130px;
+}
+
+#footer {
+    background:#999999; 
+    clear:both;
+}
