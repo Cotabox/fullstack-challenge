@@ -1,0 +1,32 @@
+[
+  {
+    "investor-id": 1,
+    "investor-first-name": "Carlos",
+    "investor-last-name": "Moura",
+    "percentual-participation": 5
+  },
+  {
+    "investor-id": 2,
+    "investor-first-name": "Fernanda",
+    "investor-last-name": "Oliveira",
+    "percentual-participation": 15
+  },
+  {
+    "investor-id": 3,
+    "investor-first-name": "Hugo",
+    "investor-last-name": "Silva",
+    "percentual-participation": 20
+  },
+  {
+    "investor-id": 4,
+    "investor-first-name": "Eliza",
+    "investor-last-name": "Souza",
+    "percentual-participation": 20
+  },
+  {
+    "investor-id": 5,
+    "investor-first-name": "Anderson",
+    "investor-last-name": "Santos",
+    "percentual-participation": 40
+  },
+]

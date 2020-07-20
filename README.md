@@ -1,42 +1,27 @@
-<p align="center">
-  <img src="./Grupo 116@2x.png" width="300">
-</p>
+# AngularTourOfHeroes
 
-# { "developer": "fullstack" }
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.3.
 
-The objective of this challenge is to evaluate your domain in fullstack development: its organization, style and good practices with code, APIs creation, frameworks knowledge and technologies.
+## Development server
 
-## Rules
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-1. Your code should be made available in a public or private repository, on your personal github or bitbucket. But, if you preffer, create a Pull Request with your application;
-2. Send the link to desenvolvimento@cotabox.com.br;
-3. We use VueJS and Node.js with MongoDB, but you can feel free to choose other technologies;
+## Code scaffolding
 
-## Challenge
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-### Front-end
+## Build
 
-The following layout should be developed
-![layout](layout-onepage.png)
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-[You can download the PSD here](layout-onepage.psd)
+## Running unit tests
 
-- You can use the libs and frameworks that make you more comfortable;
-- All fields are required in the form;
-- We'll be happy if you develop tests for it;
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-### Back-end
+## Running end-to-end tests
 
-The layout has a form, a table with percentage information of participation and a pizza graph that represents this distribution.
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-- You need to create APIs that sends and receives these informations;
-- We'll be happy if you develop tests for it;
-- In case of inconsistency, return the error in a structured JSON with HTTP 400 code;
+## Further help
 
-#### Plus
-
-Feel free to make improviments like new funcionalities, visual optimizations, API security, etc. 😉
-
-## Questions?
-
-Send your questions directly to desenvolvimento@cotabox.com.br or opening a issue.
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
