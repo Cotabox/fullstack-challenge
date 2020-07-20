@@ -50,7 +50,7 @@ Feel free to make improviments like new funcionalities, visual optimizations, AP
 Send your questions directly to desenvolvimento@cotabox.com.br or opening a issue.
 
 
-
+xxxxxxxxxxxxxxxxxxxxxxx
 
 
 # AngularTourOfHeroes
