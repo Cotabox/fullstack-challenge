@@ -1,8 +1,8 @@
 import { NgModule }       from '@angular/core';
 import { BrowserModule }  from '@angular/platform-browser';
-import { FormsModule }    from '@angular/forms';
+import { FormsModule, ReactiveFormsModule }    from '@angular/forms';
 import { HttpClientModule }    from '@angular/common/http';
-
+import { ChartsModule } from 'ng2-charts';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService }  from './in-memory-data.service';
 
@@ -15,6 +15,8 @@ import { HeroesComponent }      from './heroes/heroes.component';
 import { HeroSearchComponent }  from './hero-search/hero-search.component';
 import { MessagesComponent }    from './messages/messages.component';
 import { ChartComponent } from './chart/chart.component';
+import { ProfileEditorComponent } from './profile-editor/profile-editor.component';
+import { ChartDoughnutComponent } from './chart-doughnut/chart-doughnut.component';
 
 @NgModule({
   imports: [
@@ -22,6 +24,8 @@ import { ChartComponent } from './chart/chart.component';
     FormsModule,
     AppRoutingModule,
     HttpClientModule,
+    ReactiveFormsModule,
+    ChartsModule,
 
     // The HttpClientInMemoryWebApiModule module intercepts HTTP requests
     // and returns simulated server responses.
@@ -37,7 +41,9 @@ import { ChartComponent } from './chart/chart.component';
     HeroDetailComponent,
     MessagesComponent,
     HeroSearchComponent,
-    ChartComponent
+    ChartComponent,
+    ProfileEditorComponent,
+    ChartDoughnutComponent
   ],
   bootstrap: [ AppComponent ]
 })
