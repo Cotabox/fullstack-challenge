@@ -2,6 +2,10 @@
 
 1. Here it's my partial solution for Cotabox Fullstack Challenge.
 
+<p align="center">
+<img src="https://raw.githubusercontent.com/danielramosbh74/Cotabox-fullstack-challenge/master/src/assets/Cotabox-fullstack-challenge-running.png" width="400" alt="Cotabox Fullstack Challenge">
+</p>
+
 2. Used technologies:
 
 - Angular
