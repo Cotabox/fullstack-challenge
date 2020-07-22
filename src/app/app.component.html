@@ -12,14 +12,69 @@
 
 
 
-<h1>{{title}}</h1>
+<h2>{{title}}</h2>
+<!-- 
 <nav>
   <a routerLink="/dashboard">Dashboard</a>
   <a routerLink="/heroes">Employees</a>
 </nav>
-
+-->
 
 <app-profile-editor></app-profile-editor>
+
+
+<h2 align=center>Employees Participation</h2>
+	
+	<div id="table1">
+	
+	<table>
+	  <tr>
+		<th>Id</th>
+		<th>Fist name</th>
+		<th>Last name</th>
+		<th>Participation</th>
+	  </tr>
+	  <tr>
+      <td>{{id}}</td>
+      <td>{{firstName}}</td>
+      <td>{{lastName}}</td>
+      <td>{{participation}}</td>
+	  </tr>
+	  <tr>
+      <td>{{id}}</td>
+      <td>{{firstName}}</td>
+      <td>{{lastName}}</td>
+      <td>{{participation}}</td>
+	  </tr>
+	  <tr>
+      <td>{{id}}</td>
+      <td>{{firstName}}</td>
+      <td>{{lastName}}</td>
+      <td>{{participation}}</td>
+	  </tr>
+	  <tr>
+      <td>{{id}}</td>
+      <td>{{firstName}}</td>
+      <td>{{lastName}}</td>
+      <td>{{participation}}</td>
+	  </tr>
+	  <tr>
+      <td>{{id}}</td>
+      <td>{{firstName}}</td>
+      <td>{{lastName}}</td>
+      <td>{{participation}}</td>
+	  </tr>
+	</table>
+	
+	</div>
+
+  <br>
+  <br>
+
+
+
+
+
 <app-chart-doughnut></app-chart-doughnut>
 <router-outlet></router-outlet>
 <app-messages></app-messages>

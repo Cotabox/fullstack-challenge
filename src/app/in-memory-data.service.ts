@@ -64,13 +64,27 @@ percentual-participation: 40
 
 
 
-    const heroes = [
-  { id: 1, name: 'Carlos' },
-  { id: 2, name: 'Fernanda' },
-  { id: 3, name: 'Hugo' },
-  { id: 4, name: 'Eliza' },
-  { id: 5, name: 'Anderson' },
+const heroes = [
+  { id: 1, firstName: 'Carlos', },
+  { id: 2, firstName: 'Fernanda' },
+  { id: 3, firstName: 'Hugo' },
+  { id: 4, firstName: 'Eliza' },
+  { id: 5, firstName: 'Anderson' },
 ];
+
+
+
+
+/*
+    const heroes = [
+  { id: 1, firstName: 'Carlos', lastName: 'Moura', participation: 5 },
+  { id: 2, firstName: 'Fernanda' lastName: 'Oliveira', participation: 15 },
+  { id: 3, firstName: 'Hugo' lastName: 'Silva', participation: 20 },
+  { id: 4, firstName: 'Eliza' lastName: 'Souza', participation: 20 },
+  { id: 5, firstName: 'Anderson' lastName: 'Santos', participation: 40 },
+];
+*/
+
 
 
     return {heroes};

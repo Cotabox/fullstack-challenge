@@ -18,33 +18,33 @@ export const HEROES: Hero[] = [
 
 export const HEROES: Hero[] = [
   {
-    "id": 1,
-    "name": "Carlos",
-    "employee-last-name": "Moura",
-    "percentual-participation": 5
+    id: 1,
+    firstName: 'Carlos',
+    lastName: 'Moura',
+    participation: 5
   },
   {
-    "id": 2,
-    "name": "Fernanda",
-    "employee-last-name": "Oliveira",
-    "percentual-participation": 15
+    id: 2,
+    firstName: 'Fernanda',
+    lastName: 'Oliveira',
+    participation: 15
   },
   {
-    "id": 3,
-    "name": "Hugo",
-    "employee-last-name": "Silva",
-    "percentual-participation": 20
+    id: 3,
+    firstName: 'Hugo',
+    lastName: 'Silva',
+    participation: 20
   },
   {
-    "id": 4,
-    "name": "Eliza",
-    "employee-last-name": "Souza",
-    "percentual-participation": 20
+    id: 4,
+    firstName: 'Eliza',
+    lastName: 'Souza',
+    participation: 20
   },
   {
-    "id": 5,
-    "name": "Anderson",
-    "employee-last-name": "Santos",
-    "percentual-participation": 40
+    id: 5,
+    firstName: 'Anderson',
+    lastName: 'Santos',
+    participation: 40
   },
 ]

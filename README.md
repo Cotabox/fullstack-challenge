@@ -1,13 +1,24 @@
 # Documentation
 
-1. It's my parcial solution for Cotabox Fullstack Challenge (read more bellow).
-2. I'm trying to solve this challenge after studied Angular "Tour of Heroes" tutorial (read more bellow), because I think it's possible to use an analogy with "heroes" and "employees / investors" hence the way to do the basic "CRUD" is almost the same in most cases.
-3. I'm still working on this challenge until the deadline, scheduled for 07/21/2020, so, this documentation will be modified until it's date.
-4. To run this Angular App in a development server, just clone this repository localy and follow general instructions for any Angular app:
+1. It's one solution for Cotabox Fullstack Challenge (read more bellow).
+
+2. This challenge was partially solved based on:
+- Angular "Tour of Heroes" tutorial (read more bellow)
+- "Fundamentals" (ex. Reactive Forms) in the Angular Documentation
+- Ng2-charts module, that uses Chart.js library
+
+3. Considering the basic "CRUD" of data is one of the most basic and important skills of any developer, independendant of the programming language that you are using, I've done an abstraction, an analogy with the "Heroes" with the "Employees" or any kind "User"
+
+4. Considering that I have a deadline to deliver this challenge, I'm going to work on it until the deadline, so this documentation will be modified until it's date and, maybe, after this date too if I decide to continue to improve its solution to this challenge just to learn more, eventhought I don't be the selected candidate.
+
+5. To run this Angular App in a development server, just clone this repository localy and **follow general instructions for any Angular app**:
+
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-5. 
+
+xxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
+xxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
 <p align="center">

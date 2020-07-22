@@ -1,3 +1,4 @@
+<!-- ORIGINAL CODE 
 <form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
   <label>
     First Name:
@@ -37,7 +38,7 @@
     <h3>Aliases</h3> <button (click)="addAlias()">Add Alias</button>
 
     <div *ngFor="let alias of aliases.controls; let i=index">
-      <!-- The repeated alias template -->
+      
       <label>
         Alias:
         <input type="text" [formControlName]="i">
@@ -63,3 +64,43 @@
 <p>
   <button (click)="updateProfile()">Update Profile</button>
 </p>
+
+-->
+
+<h2>Employees</h2>
+
+<form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+  <label>
+    First Name:
+    <input type="text" formControlName="firstName" required>
+  </label>
+
+  <label>
+    Last Name:
+    <input type="text" formControlName="lastName">
+  </label>
+
+  <label>
+    Participation:
+    <input type="text" formControlName="participation">
+  </label>
+
+  <button type="submit" [disabled]="!profileForm.valid">Submit</button>
+</form>
+
+<hr>
+
+
+<p>
+  Form Value: {{ profileForm.value | json }}
+</p>
+
+
+<p>
+  Form Status: {{ profileForm.status }}
+</p>
+
+<p>
+  <button (click)="updateProfile()">Update Profile</button>
+</p>
+

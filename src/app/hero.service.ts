@@ -53,13 +53,13 @@ export class HeroService {
     );
   }
 
-  /* GET heroes whose name contains search term */
+  /* GET heroes whose firstName contains search term */
   searchHeroes(term: string): Observable<Hero[]> {
     if (!term.trim()) {
       // if not search term, return empty hero array.
       return of([]);
     }
-    return this.http.get<Hero[]>(`${this.heroesUrl}/?name=${term}`).pipe(
+    return this.http.get<Hero[]>(`${this.heroesUrl}/?firstName=${term}`).pipe(
       tap(x => x.length ?
          this.log(`found heroes matching "${term}"`) :
          this.log(`no heroes matching "${term}"`)),
@@ -99,7 +99,7 @@ export class HeroService {
   /**
    * Handle Http operation that failed.
    * Let the app continue.
-   * @param operation - name of the operation that failed
+   * @param operation - firstName of the operation that failed
    * @param result - optional value to return as the observable result
    */
   private handleError<T>(operation = 'operation', result?: T) {
