@@ -1,81 +1,37 @@
-<!-- ORIGINAL CODE
-
-<h1>{{title}}</h1>
-<nav>
-  <a routerLink="/dashboard">Dashboard</a>
-  <a routerLink="/heroes">Heroes</a> 
-</nav>
-<router-outlet></router-outlet>
-<app-messages></app-messages>
-
--->
 
 
+<div class="main__app">
+  <nav class="navbar navbar-dark bg-primary">
+   <div class="container app__navbar_container d-flex justify-content-center align-self-center pt-4 pb-4">
+    <div class="text-center mb-2 text-white" style="display: block;width: 100%;">
+      <h3>Cadastre-se</h3>
+      <p>
+        Bem-vindo(a). Cadastre sua participação no sistema
+      </p>
+    </div> 
+    
+   
+     <app-user-form></app-user-form>
+   </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mt-4 mb-4  border-bottom">
+        <h3 class="text-center">Dados</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-5 pt-2 ">
+        <app-user-list></app-user-list>
+      </div>
+      <div class="col-7 ">
+        <app-chart-doughnut></app-chart-doughnut>
+      </div>
+    </div>
+    
+  </div>
+  
 
-<h2>{{title}}</h2>
-<!-- 
-<nav>
-  <a routerLink="/dashboard">Dashboard</a>
-  <a routerLink="/heroes">Employees</a>
-</nav>
--->
+</div>
 
-<app-profile-editor></app-profile-editor>
-
-
-<h2 align=center>Employees Participation</h2>
-	
-	<div id="table1">
-	
-	<table>
-	  <tr>
-		<th>Id</th>
-		<th>Fist name</th>
-		<th>Last name</th>
-		<th>Participation</th>
-	  </tr>
-	  <tr>
-      <td>{{id}}</td>
-      <td>{{firstName}}</td>
-      <td>{{lastName}}</td>
-      <td>{{participation}}</td>
-	  </tr>
-	  <tr>
-      <td>{{id}}</td>
-      <td>{{firstName}}</td>
-      <td>{{lastName}}</td>
-      <td>{{participation}}</td>
-	  </tr>
-	  <tr>
-      <td>{{id}}</td>
-      <td>{{firstName}}</td>
-      <td>{{lastName}}</td>
-      <td>{{participation}}</td>
-	  </tr>
-	  <tr>
-      <td>{{id}}</td>
-      <td>{{firstName}}</td>
-      <td>{{lastName}}</td>
-      <td>{{participation}}</td>
-	  </tr>
-	  <tr>
-      <td>{{id}}</td>
-      <td>{{firstName}}</td>
-      <td>{{lastName}}</td>
-      <td>{{participation}}</td>
-	  </tr>
-	</table>
-	
-	</div>
-
-  <br>
-  <br>
-
-
-
-
-
-<app-chart-doughnut></app-chart-doughnut>
-<router-outlet></router-outlet>
-<app-messages></app-messages>
 

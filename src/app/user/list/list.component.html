@@ -1,0 +1,20 @@
+<table id="list-user"class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th scope="col"></th>
+        <th scope="col">Nome</th>
+        <th scope="col">Sobrenome</th>
+        <th scope="col">Participação</th>
+      </tr>
+    </thead>
+    <tbody>
+       
+      <tr  *ngFor="let item of data | async" >
+        <th scope="row">{{item.id}}</th>
+        <td>{{item.firstName}}</td>
+        <td>{{item.lastName}}</td>
+        <td>{{item.participation}}</td>
+      </tr>
+      
+    </tbody>
+  </table>

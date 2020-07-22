@@ -9,14 +9,17 @@ import { InMemoryDataService }  from './in-memory-data.service';
 import { AppRoutingModule }     from './app-routing.module';
 
 import { AppComponent }         from './app.component';
-import { DashboardComponent }   from './dashboard/dashboard.component';
-import { HeroDetailComponent }  from './hero-detail/hero-detail.component';
-import { HeroesComponent }      from './heroes/heroes.component';
-import { HeroSearchComponent }  from './hero-search/hero-search.component';
-import { MessagesComponent }    from './messages/messages.component';
-import { ChartComponent } from './chart/chart.component';
-import { ProfileEditorComponent } from './profile-editor/profile-editor.component';
+// import { DashboardComponent }   from './dashboard/dashboard.component';
+// import { HeroDetailComponent }  from './hero-detail/hero-detail.component';
+// import { HeroesComponent }      from './heroes/heroes.component';
+// import { HeroSearchComponent }  from './hero-search/hero-search.component';
+// import { MessagesComponent }    from './messages/messages.component';
+// import { ChartComponent } from './chart/chart.component';
+// import { ProfileEditorComponent } from './profile-editor/profile-editor.component';
 import { ChartDoughnutComponent } from './chart-doughnut/chart-doughnut.component';
+import { FormComponent } from './user/form/form.component';
+import { ListComponent } from './user/list/list.component';
+
 
 @NgModule({
   imports: [
@@ -31,19 +34,22 @@ import { ChartDoughnutComponent } from './chart-doughnut/chart-doughnut.componen
     // and returns simulated server responses.
     // Remove it when a real server is ready to receive requests.
     HttpClientInMemoryWebApiModule.forRoot(
-      InMemoryDataService, { dataEncapsulation: false }
+      InMemoryDataService, { dataEncapsulation: false, delay: 500 }
     )
   ],
   declarations: [
     AppComponent,
-    DashboardComponent,
-    HeroesComponent,
-    HeroDetailComponent,
-    MessagesComponent,
-    HeroSearchComponent,
-    ChartComponent,
-    ProfileEditorComponent,
-    ChartDoughnutComponent
+    // DashboardComponent,
+    // HeroesComponent,
+    // HeroDetailComponent,
+    // MessagesComponent,
+    // HeroSearchComponent,
+    // ChartComponent,
+    // ProfileEditorComponent,
+    ChartDoughnutComponent,
+    FormComponent,
+    ListComponent,
+    
   ],
   bootstrap: [ AppComponent ]
 })

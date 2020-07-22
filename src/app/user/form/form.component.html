@@ -1,0 +1,16 @@
+<form class="form-inline" [formGroup]="form" (ngSubmit)="handleSubmit()">
+    <input class="form-control mr-sm-2" 
+    formControlName="firstName"
+    placeholder="*Nome" aria-label="Nome">
+
+    <input class="form-control mr-sm-2" 
+    formControlName="lastName"
+    placeholder="*Sobrenome" aria-label="Sobrenome">
+
+    <input class="form-control mr-sm-2" 
+    formControlName="participation"
+    placeholder="*Participacao" aria-label="Participacao">
+    <button [disabled]="form.invalid" class="btn btn-outline-white my-2 my-sm-0" type="submit">Enviar</button>
+</form>
+
+
