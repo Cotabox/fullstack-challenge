@@ -8,7 +8,7 @@
 
 Bellow you can see the compiled JavaScript files working as a Github Page, without need to install anything ;)
 
-https://danielramosbh74.github.io/tests/Cotabox-fullstack-challenge-prod/Cotabox-fullstack-challenge/
+https://danielramosbh74.github.io/tests/Cotabox-fullstack-challenge-prod/index.html
 
 2. Used technologies:
 
