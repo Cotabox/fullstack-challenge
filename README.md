@@ -6,6 +6,10 @@
 <img src="https://raw.githubusercontent.com/danielramosbh74/Cotabox-fullstack-challenge/master/src/assets/Cotabox-fullstack-challenge-running.png" width="400" alt="Cotabox Fullstack Challenge">
 </p>
 
+Bellow you can see the compiled JavaScript files working as a Github Page, without need to install anything ;)
+
+https://danielramosbh74.github.io/tests/Cotabox-fullstack-challenge-prod/Cotabox-fullstack-challenge/
+
 2. Used technologies:
 
 - Angular
